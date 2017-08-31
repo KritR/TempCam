@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF0AD9D1F57A01300D10472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0AD9C1F57A01300D10472 /* AppDelegate.swift */; };
+		EBF0AD9F1F57A01300D10472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0AD9E1F57A01300D10472 /* ViewController.swift */; };
+		EBF0ADA21F57A01300D10472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF0ADA01F57A01300D10472 /* Main.storyboard */; };
+		EBF0ADA41F57A01300D10472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF0ADA31F57A01300D10472 /* Assets.xcassets */; };
+		EBF0ADA71F57A01300D10472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF0ADA51F57A01300D10472 /* LaunchScreen.storyboard */; };
+		EBF0ADB21F57A01300D10472 /* TempCam_R1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0ADB11F57A01300D10472 /* TempCam_R1Tests.swift */; };
+		EBF0ADBD1F57A01300D10472 /* TempCam_R1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0ADBC1F57A01300D10472 /* TempCam_R1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF0ADAE1F57A01300D10472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF0AD911F57A01300D10472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF0AD981F57A01300D10472;
+			remoteInfo = "TempCam-R1";
+		};
+		EBF0ADB91F57A01300D10472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF0AD911F57A01300D10472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF0AD981F57A01300D10472;
+			remoteInfo = "TempCam-R1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF0AD991F57A01300D10472 /* TempCam-R1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TempCam-R1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF0AD9C1F57A01300D10472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF0AD9E1F57A01300D10472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF0ADA11F57A01300D10472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF0ADA31F57A01300D10472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF0ADA61F57A01300D10472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF0ADA81F57A01300D10472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF0ADAD1F57A01300D10472 /* TempCam-R1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempCam-R1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF0ADB11F57A01300D10472 /* TempCam_R1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCam_R1Tests.swift; sourceTree = "<group>"; };
+		EBF0ADB31F57A01300D10472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF0ADB81F57A01300D10472 /* TempCam-R1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempCam-R1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF0ADBC1F57A01300D10472 /* TempCam_R1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCam_R1UITests.swift; sourceTree = "<group>"; };
+		EBF0ADBE1F57A01300D10472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF0AD961F57A01300D10472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADAA1F57A01300D10472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADB51F57A01300D10472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF0AD901F57A01300D10472 = {
+			isa = PBXGroup;
+			children = (
+				EBF0AD9B1F57A01300D10472 /* TempCam-R1 */,
+				EBF0ADB01F57A01300D10472 /* TempCam-R1Tests */,
+				EBF0ADBB1F57A01300D10472 /* TempCam-R1UITests */,
+				EBF0AD9A1F57A01300D10472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF0AD9A1F57A01300D10472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0AD991F57A01300D10472 /* TempCam-R1.app */,
+				EBF0ADAD1F57A01300D10472 /* TempCam-R1Tests.xctest */,
+				EBF0ADB81F57A01300D10472 /* TempCam-R1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF0AD9B1F57A01300D10472 /* TempCam-R1 */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0AD9C1F57A01300D10472 /* AppDelegate.swift */,
+				EBF0AD9E1F57A01300D10472 /* ViewController.swift */,
+				EBF0ADA01F57A01300D10472 /* Main.storyboard */,
+				EBF0ADA31F57A01300D10472 /* Assets.xcassets */,
+				EBF0ADA51F57A01300D10472 /* LaunchScreen.storyboard */,
+				EBF0ADA81F57A01300D10472 /* Info.plist */,
+			);
+			path = "TempCam-R1";
+			sourceTree = "<group>";
+		};
+		EBF0ADB01F57A01300D10472 /* TempCam-R1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0ADB11F57A01300D10472 /* TempCam_R1Tests.swift */,
+				EBF0ADB31F57A01300D10472 /* Info.plist */,
+			);
+			path = "TempCam-R1Tests";
+			sourceTree = "<group>";
+		};
+		EBF0ADBB1F57A01300D10472 /* TempCam-R1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0ADBC1F57A01300D10472 /* TempCam_R1UITests.swift */,
+				EBF0ADBE1F57A01300D10472 /* Info.plist */,
+			);
+			path = "TempCam-R1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF0AD981F57A01300D10472 /* TempCam-R1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF0ADC11F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1" */;
+			buildPhases = (
+				EBF0AD951F57A01300D10472 /* Sources */,
+				EBF0AD961F57A01300D10472 /* Frameworks */,
+				EBF0AD971F57A01300D10472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TempCam-R1";
+			productName = "TempCam-R1";
+			productReference = EBF0AD991F57A01300D10472 /* TempCam-R1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF0ADAC1F57A01300D10472 /* TempCam-R1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF0ADC41F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1Tests" */;
+			buildPhases = (
+				EBF0ADA91F57A01300D10472 /* Sources */,
+				EBF0ADAA1F57A01300D10472 /* Frameworks */,
+				EBF0ADAB1F57A01300D10472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF0ADAF1F57A01300D10472 /* PBXTargetDependency */,
+			);
+			name = "TempCam-R1Tests";
+			productName = "TempCam-R1Tests";
+			productReference = EBF0ADAD1F57A01300D10472 /* TempCam-R1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF0ADB71F57A01300D10472 /* TempCam-R1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF0ADC71F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1UITests" */;
+			buildPhases = (
+				EBF0ADB41F57A01300D10472 /* Sources */,
+				EBF0ADB51F57A01300D10472 /* Frameworks */,
+				EBF0ADB61F57A01300D10472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF0ADBA1F57A01300D10472 /* PBXTargetDependency */,
+			);
+			name = "TempCam-R1UITests";
+			productName = "TempCam-R1UITests";
+			productReference = EBF0ADB81F57A01300D10472 /* TempCam-R1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF0AD911F57A01300D10472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Krithik Rao";
+				TargetAttributes = {
+					EBF0AD981F57A01300D10472 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A2QKBT4SNY;
+						ProvisioningStyle = Automatic;
+					};
+					EBF0ADAC1F57A01300D10472 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A2QKBT4SNY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBF0AD981F57A01300D10472;
+					};
+					EBF0ADB71F57A01300D10472 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A2QKBT4SNY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBF0AD981F57A01300D10472;
+					};
+				};
+			};
+			buildConfigurationList = EBF0AD941F57A01300D10472 /* Build configuration list for PBXProject "TempCam-R1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF0AD901F57A01300D10472;
+			productRefGroup = EBF0AD9A1F57A01300D10472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF0AD981F57A01300D10472 /* TempCam-R1 */,
+				EBF0ADAC1F57A01300D10472 /* TempCam-R1Tests */,
+				EBF0ADB71F57A01300D10472 /* TempCam-R1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF0AD971F57A01300D10472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0ADA71F57A01300D10472 /* LaunchScreen.storyboard in Resources */,
+				EBF0ADA41F57A01300D10472 /* Assets.xcassets in Resources */,
+				EBF0ADA21F57A01300D10472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADAB1F57A01300D10472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADB61F57A01300D10472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF0AD951F57A01300D10472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0AD9F1F57A01300D10472 /* ViewController.swift in Sources */,
+				EBF0AD9D1F57A01300D10472 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADA91F57A01300D10472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0ADB21F57A01300D10472 /* TempCam_R1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF0ADB41F57A01300D10472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF0ADBD1F57A01300D10472 /* TempCam_R1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF0ADAF1F57A01300D10472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF0AD981F57A01300D10472 /* TempCam-R1 */;
+			targetProxy = EBF0ADAE1F57A01300D10472 /* PBXContainerItemProxy */;
+		};
+		EBF0ADBA1F57A01300D10472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF0AD981F57A01300D10472 /* TempCam-R1 */;
+			targetProxy = EBF0ADB91F57A01300D10472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF0ADA01F57A01300D10472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF0ADA11F57A01300D10472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF0ADA51F57A01300D10472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF0ADA61F57A01300D10472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF0ADBF1F57A01300D10472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF0ADC01F57A01300D10472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF0ADC21F57A01300D10472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBF0ADC31F57A01300D10472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EBF0ADC51F57A01300D10472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempCam-R1.app/TempCam-R1";
+			};
+			name = Debug;
+		};
+		EBF0ADC61F57A01300D10472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempCam-R1.app/TempCam-R1";
+			};
+			name = Release;
+		};
+		EBF0ADC81F57A01300D10472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TempCam-R1";
+			};
+			name = Debug;
+		};
+		EBF0ADC91F57A01300D10472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2QKBT4SNY;
+				INFOPLIST_FILE = "TempCam-R1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kritr.personal.ios.TempCam-R1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TempCam-R1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF0AD941F57A01300D10472 /* Build configuration list for PBXProject "TempCam-R1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF0ADBF1F57A01300D10472 /* Debug */,
+				EBF0ADC01F57A01300D10472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF0ADC11F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF0ADC21F57A01300D10472 /* Debug */,
+				EBF0ADC31F57A01300D10472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF0ADC41F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF0ADC51F57A01300D10472 /* Debug */,
+				EBF0ADC61F57A01300D10472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF0ADC71F57A01300D10472 /* Build configuration list for PBXNativeTarget "TempCam-R1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF0ADC81F57A01300D10472 /* Debug */,
+				EBF0ADC91F57A01300D10472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF0AD911F57A01300D10472 /* Project object */;
+}
