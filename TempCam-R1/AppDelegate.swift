@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Photos
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        UINavigationBar.appearance().barTintColor = UIColor(red: 234.0/255.0, green: 46.0/255.0, blue: 73.0/255.0, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes =
+            [NSForegroundColorAttributeName : UIColor.white, (NSFontAttributeName as NSObject) as! String : UIFont(name: "Noteworthy-Bold", size: 20) as AnyObject]
+        UIToolbar.appearance().barTintColor = UIColor(red: 234.0/255.0, green: 46.0/255.0, blue: 73.0/255.0, alpha: 1.0)
+        UIToolbar.appearance().tintColor = UIColor.white
+        if #available(iOS 10.0, *) {
+            Timer.scheduledTimer(withTimeInterval: 65.0, repeats: true, block: timerDidFire)
+        } else {
+            Timer.scheduledTimer(timeInterval: 65.0, target: self, selector: #selector(AppDelegate.timerDidFire(_:)), userInfo: nil, repeats: true)
+        }
+
         // Override point for customization after application launch.
         return true
     }
@@ -39,6 +52,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+
+    func timerDidFire(_ timer: Timer!){
+        
+        var imageKey: [AnyObject] = []
+        
+        if(UserDefaults.standard.object(forKey: "photoDict") != nil){
+            var dictionary = UserDefaults.standard.object(forKey: "photoDict") as! Dictionary<String, NSDate>
+            for (key, value) in dictionary{
+                if(value.timeIntervalSinceNow<=0){
+                    imageKey.append(key as AnyObject)
+                    dictionary.removeValue(forKey: key)
+                }
+                
+            }
+            let image = PHAsset.fetchAssets(withLocalIdentifiers: imageKey as! [String], options: nil)
+            
+            PHPhotoLibrary.shared().performChanges({
+                PHAssetChangeRequest.deleteAssets(image)
+            }, completionHandler: {
+                success, error in
+                NSLog("Finished deleting Asset")
+            })
+            
+            UserDefaults.standard.removeObject(forKey: "photoDict")
+            UserDefaults.standard.set(dictionary as Dictionary<String,NSDate>, forKey: "photoDict")
+
+        }
     }
 
 
